@@ -9,4 +9,4 @@ Built using Spring Boot JPA, Postgres, Selenium
 3. Download and setup Postgres DB, configure your username and password in application.properties
 4. Create a database named klstocklist
 5. Configure your local java version if required in pom.xml
-6. Uncomment the cron expression("0/10 * * * * *") to test run the scheduling in every 10 seconds
+6. Uncomment the cron expression("0/10 * * * * *") of fetchStockInfo() in StockInfoService class to test run the scheduling in every 10 seconds
